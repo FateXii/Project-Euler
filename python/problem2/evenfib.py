@@ -5,11 +5,14 @@ def fib(x):
         return 1
     return fib(x-1) + fib(x-2)
 
-count = 0
-total = 0
 
-while (fib(count) < 4000000):
-    if not(fib(count)%2):
-        total += fib(count)
-    count += 1
-print total
+
+
+if __name__ == "__main__":
+    count = 0
+    total = 0
+    while (fib(count) < 4000000):
+        if not(fib(count)%2):
+            total += fib(count)
+        count += 1
+    print total

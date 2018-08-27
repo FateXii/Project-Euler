@@ -16,5 +16,6 @@ def findLargestPrime(n):
         largestPrime = n
     return largestPrime
 
-print findLargestPrime(13195)
-print findLargestPrime(600851475143)
+if __name__ == "__main__":
+    print findLargestPrime(13195)
+    #print findLargestPrime(600851475143)
