@@ -7,7 +7,7 @@ def findLargestPrime(n):
         largestPrime = 2
         n //= 2
     
-    for i in range(3, int(math.sqrt(n)),2):
+    for i in xrange(3, int(math.sqrt(n)),2):
         if not(n%i):
             largestPrime = i
             n //= i
